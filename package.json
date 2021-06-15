@@ -1,5 +1,5 @@
 {
-  "name": "Lab-06",
+  "name": "lab_06",
   "version": "1.0.0",
   "description": "",
   "main": "data.js",
@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "start": "node server.js"
   },
   "repository": {

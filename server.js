@@ -1,7 +1,7 @@
 const express = require('express');
 const music = require('./data.js');
 const app = express();
-const port = 3000;
+
 
 app.get('/music', (req,res) => {
     res.json(music);
@@ -13,6 +13,4 @@ app.get('/music/:id', (req, res) => {
     res.json(musics);
 });
 
-app.listen (port, () =>{
-    console.log('sup')
-});
+module.exports = app
