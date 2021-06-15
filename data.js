@@ -47,3 +47,4 @@ const music = {
 
     ] 
 }
+module.exports = music;
