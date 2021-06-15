@@ -1,0 +1,29 @@
+{
+  "name": "lab_06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^27.0.4",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekHudgins/Lab-06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerekHudgins/Lab-06/issues"
+  },
+  "homepage": "https://github.com/DerekHudgins/Lab-06#readme"
+}
